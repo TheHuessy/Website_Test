@@ -1,5 +1,7 @@
 // Javascript test
 
+//https://www.codeproject.com/articles/755/javascript-for-beginners
+
 //Boston colors, lol
 document.bgColor="#288BE4"
 document.fgColor="#f2f2f2"
