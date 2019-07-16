@@ -26,5 +26,6 @@ You could do all of that on the Pi server you have!
      	* Show Cost
      	* Show Location
      * With show location, see what sort of geocoding/google place API stuff you can do
+     * Generate test file for JS to point to
  * Write Snippet of JS that reads either JSON or CSV data and presents it
  	* Worry about format later, I'm sure there will be a CSS method to prettify things

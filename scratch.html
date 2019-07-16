@@ -12,6 +12,44 @@
 		<br>
 		<br>
 		<h1>JAVASCRIPT ELEMENTS</h1>
+		<br>
+		<br>
+		<h2>Calendar Read</h2>
+		<script type="text/javascript">
+    $(document).ready(function() {
+    $.ajax({
+        type: "GET",
+        url: "dates.csv",
+        dataType: "text",
+        success: function(data) {processData(data);}
+     });
+});
+
+function processData(allText) {
+    var allTextLines = allText.split(/\r\n|\n/);
+    var headers = allTextLines[0].split(',');
+    var lines = [];
+
+    for (var i=1; i<allTextLines.length; i++) {
+        var data = allTextLines[i].split(',');
+        if (data.length == headers.length) {
+
+            var tarr = [];
+            for (var j=0; j<headers.length; j++) {
+                tarr.push(headers[j]+":"+data[j]);
+            }
+            lines.push(tarr);
+        }
+    }
+    // alert(lines);
+}
+
+
+</script>
+
+
+
+
 		<!--
 		<script type="text/javascript"> 
 			
