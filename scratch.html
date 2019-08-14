@@ -3,10 +3,9 @@
 <meta content="utf-8" http-equiv="encoding">
 <html>
 <head>
-	<script type="text/javascript">
-		$.document.bgColor="#288BE4"
-		$.document.fgColor="#f2f2f2"
-	</script>
+	 <link rel = "stylesheet"
+	    type = "text/css"
+	    href = "Style.css" />
 	<!-- Pull in Jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<!-- Pull in Jquery-csv -->
@@ -88,22 +87,26 @@ function processData(allText) {
 			//this was modified from this: https://www.jqueryscript.net/table/jQuery-Plugin-To-Generate-A-Table-From-A-CSV-File-CSV-Parser.html
 			$.get('https://raw.githubusercontent.com/TheHuessy/Website_Test/master/dates.csv', function(data) {
 			// start the table
-			var html = '<div class="Show_Box">';
+			var html = '';
 	
 			// split into lines
 			var rows = data.split("\n");
 			
+			//, idx, array){
+   			//if (idx === array.length - 1)
 
 			// parse lines
-			rows.forEach(function getvalues(ourrow) {
- 				var box_iter = box_iter + 1
+			rows.forEach(function getvalues(ourrow) { 				
 				
+				html += '<div class="Show_Box">';
 
 				// split line into columns
 				if (ourrow == rows[0]){
 					return;
 					}
-
+				if (ourrow == rows[0]){
+					return;
+					}
 				else {
 
 					// Show_Name = [0]
@@ -123,12 +126,17 @@ function processData(allText) {
 					//Create split row variable
 					var columns = ourrow.split(",");
 	 				
-	 				//Get show date
+					if (columns[0][0] == "undefined"){
+					return;
+				}
+
+
+	 				//Get show date, show name, and time
 					html += '<h4 class="show_date">' + columns[3] + ' ' + columns[2] + '</h4>';
 					
 					//Get show name and time if available, else just print the show name
 					if (columns[2] != "??"){
-						html += '<h3 class="show_name_time">' + columns[0] + ' | ' + columns[2] + '</h3>';
+						html += '<h3 class="show_name_time">' + columns[0] + ' | ' + columns[5] + '</h3>';
 					} else{
 						html += '<h3 class="show_name_time">' + columns[0] + '</h3>';
 					}
@@ -136,18 +144,20 @@ function processData(allText) {
 					//Get and combine show venue name, if not present/=TBA, then just pass "TBA"
 					if (columns[6] == "TBA"){
 
-						html += '<h4 class="show_add">' + columns[6] + '</h4>';
+						html += '<h5 class="show_add">' + columns[6] + '</h5>';
 
 					} else {
 
-						html += '<h4 class="show_add">' + columns[6] + '<br>' + columns[7] + '<br>' + columns[8] + ', ' + columns[9] + '</h4>';
+						html += '<h5 class="show_add">' + columns[6] + '<br>' + columns[7] + '<br>' + columns[8] + ', ' + columns[9] + '</h5>';
 					
 					}
 				}
+				// close div
+				html += "</div>";
 				})
 
-			// close div
-			html += "</div><br>";
+				// close div
+				html += "</div><br>";
 
 			// insert into div
 			$('#Shows').append(html);

@@ -1,0 +1,27 @@
+/* myStyle.css */
+body {
+	background-color: #288BE4;
+	color: #f2f2f2;
+}
+.Show_Box {
+	text-align: center;
+	margin: auto;
+	background-color: #F2F2F2;
+	width: 50%;
+	color: #288BE4;
+}
+
+
+
+/*h1 {
+ color: #FFFF33;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ background-color: #FFFF33;
+ color: #333300;
+ text-align: right;
+ border: 3px groove #FFFF33;
+}
+*/
