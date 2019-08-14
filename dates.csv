@@ -1,32 +1,32 @@
-Show_Name,Show_Date,Show_Start_Time,Show_Street_Address,Show_City,Show_State,Show_Zip,Show_Country
-Pour House,2019-08-14,20:00,907 Boylston St #21,Boston,MA,02115,USA
-Burren,2019-08-14,22:00,247 Elm St,Somerville,MA,02144,USA
-Comedy Fire,2019-08-16,20:00,1234 Soldiers Field Rd,Boston,MA,02135,USA
-McGreevy's,2019-08-20,20:00,911 Boylston St,Boston,MA,02115,USA
-Comedy Studio,2019-08-23,20:00,1 Bow Market Way #23,Somerville,MA,02143,USA
-Socks and Sandals,2019-08-25,20:00,136 1/2 Church St,Burlington,VT,05401,USA
-Comedy and Crepes,2019-08-26,19:00,60 Lake St,Burlington,VT,05401,USA
-MA's Funniest Comedian Competition,2019-08-28,20:00,425 Summer St,Boston,MA,02210,USA
-Sixth Gear Comedy,2019-08-31,20:00,81 L St,Boston,MA,02127,USA
-Slumbrew,2019-09-01,20:00,15 Ward St,Somerville,MA,02143,USA
-Nathan Burke Show in Gloucester,2019-09-06,20:00,TBA,,,,
-Comedy Studio,2019-09-08,20:00,1 Bow Market Way #23,Somerville,MA,02143,USA
-Burren,2019-09-11,21:00,247 Elm St,Somerville,MA,02144,USA
-Beacon Hill Pub Show,2019-09-15,20:00,149 Charles St,Boston,MA,02114,USA
-People's Show,2019-09-15,21:00,40 Prospect St,Cambridge,MA,02139,USA
-8 O'clock at 7:30,2019-09-18,20:00,730 Massachusetts Ave,Cambridge,MA,02139,USA
-Motor City: Ron Taylor,2019-09-19,22:00,2932 Caniff St,Detroit,MI,48214,USA
-Motor City: Sabrina Jalees,2019-09-20,20:00,2320 Caniff St,Hamtramck,MI,48212,USA
-Artisanal Comedy,2019-09-25,20:00,1250 Massachusetts Ave,Boston,MA,02125,USA
-Comedy Studio,2019-09-28,19:00,1 Bow Market Way #23,Somerville,MA,02143,USA
-Clean Comedy,2019-09-28,19:00,40 Prospect St,Cambridge,MA,02139,USA
-Comedy Studio,2019-09-28,21:00,1 Bow Market Way #23,Somerville,MA,02143,USA
-McGreevy's,2019-10-07,20:00,911 Boylston St,Boston,MA,02115,USA
-Slumbrew,2019-10-13,20:00,15 Ward St,Somerville,MA,02143,USA
-Rogue Island Comedy Festival Show,2019-10-13,20:00,TBA,,,,
-Charity Show via Jeff Medoff,2019-10-19,20:00,306 Northern Ave,Boston,MA,02210,USA
-Lawyer Bros at IB,2019-10-31,21:30,40 Prospect St,Cambridge,MA,02139,USA
-League of Laughs,2019-11-09,20:30,407 Highland Ave,Somerville,MA,02144,USA
-Slumbrew,2019-11-10,20:00,15 Ward St,Somerville,MA,02143,USA
-Slumbrew,2019-12-01,20:00,15 Ward St,Somerville,MA,02143,USA
-Stand Up Throw Down Champions Show,2019-12-07,23:00,40 Prospect St,Cambridge,MA,02139,USA
+Show_Name,Show_Date,Show_Day,Show_Month,Show_Year,Show_Start_Time,Show_Venue_Name,Show_Street_Address,Show_City,Show_State,Show_Zip,Show_Country
+Pour House,08/14/19,14.0,August,2019.0,20:00,The Pour House,907 Boylston St #21,Boston,MA,02115,USA
+Burren,08/14/19,14.0,August,2019.0,22:00,The Burren,247 Elm St,Somerville,MA,02144,USA
+Comedy Fire,08/16/19,16.0,August,2019.0,20:00,Casa Caña,1234 Soldiers Field Rd,Boston,MA,02135,USA
+McGreevy's,08/20/19,20.0,August,2019.0,20:00,McGreevy's Boston,911 Boylston St,Boston,MA,02115,USA
+Comedy Studio,08/23/19,23.0,August,2019.0,20:00,The Comedy Studio,1 Bow Market Way #23,Somerville,MA,02143,USA
+Socks and Sandals,08/25/19,25.0,August,2019.0,20:00,Half Lounge,136 1/2 Church St,Burlington,VT,05401,USA
+Comedy and Crepes,08/26/19,26.0,August,2019.0,19:00,The Skinny Pancake,60 Lake St,Burlington,VT,05401,USA
+MA's Funniest Comedian Competition,08/28/19,28.0,August,2019.0,20:00,Laugh Boston,425 Summer St,Boston,MA,02210,USA
+Sixth Gear Comedy,08/31/19,31.0,August,2019.0,20:00,Sixth Gear - Cask & Kitchen,81 L St,Boston,MA,02127,USA
+Slumbrew,09/01/19,1.0,September,2019.0,20:00,Somerville Brewing Company - Slumbrew,15 Ward St,Somerville,MA,02143,USA
+Nathan Burke Show in Gloucester,09/06/19,6.0,September,2019.0,20:00,TBA,,,,,
+Comedy Studio,09/08/19,8.0,September,2019.0,20:00,The Comedy Studio,1 Bow Market Way #23,Somerville,MA,02143,USA
+Burren,09/11/19,11.0,September,2019.0,21:00,The Burren,247 Elm St,Somerville,MA,02144,USA
+Beacon Hill Pub Show,09/15/19,15.0,September,2019.0,20:00,Beacon Hill Pub,149 Charles St,Boston,MA,02114,USA
+People's Show,09/15/19,15.0,September,2019.0,21:00,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA
+8 O'clock at 7:30,09/18/19,18.0,September,2019.0,20:00,730 Tavern Kitchen & Patio,730 Massachusetts Ave,Cambridge,MA,02139,USA
+Motor City: Ron Taylor,09/19/19,19.0,September,2019.0,22:00,The Sanctuary,2932 Caniff St,Detroit,MI,48214,USA
+Motor City: Sabrina Jalees,09/20/19,20.0,September,2019.0,20:00,Ant Hall,2320 Caniff St,Hamtramck,MI,48212,USA
+Artisanal Comedy,09/25/19,25.0,September,2019.0,20:00,Dorchester Brewing Company,1250 Massachusetts Ave,Boston,MA,02125,USA
+Comedy Studio,09/28/19,28.0,September,2019.0,19:00,The Comedy Studio,1 Bow Market Way #23,Somerville,MA,02143,USA
+Clean Comedy,09/28/19,28.0,September,2019.0,19:00,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA
+Comedy Studio,09/28/19,28.0,September,2019.0,21:00,The Comedy Studio,1 Bow Market Way #23,Somerville,MA,02143,USA
+McGreevy's,10/07/19,7.0,October,2019.0,20:00,McGreevy's Boston,911 Boylston St,Boston,MA,02115,USA
+Slumbrew,10/13/19,13.0,October,2019.0,20:00,Somerville Brewing Company - Slumbrew,15 Ward St,Somerville,MA,02143,USA
+Rogue Island Comedy Festival Show,10/13/19,13.0,October,2019.0,20:00,TBA,,,,,
+Charity Show via Jeff Medoff,10/19/19,19.0,October,2019.0,20:00,Harpoon Brewery & Beer Hall,306 Northern Ave,Boston,MA,02210,USA
+Lawyer Bros at IB,10/31/19,31.0,October,2019.0,21:30,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA
+League of Laughs,11/09/19,9.0,November,2019.0,20:30,Comicazi,407 Highland Ave,Somerville,MA,02144,USA
+Slumbrew,11/10/19,10.0,November,2019.0,20:00,Somerville Brewing Company - Slumbrew,15 Ward St,Somerville,MA,02143,USA
+Slumbrew,12/01/19,1.0,December,2019.0,20:00,Somerville Brewing Company - Slumbrew,15 Ward St,Somerville,MA,02143,USA
+Stand Up Throw Down Champions Show,12/07/19,7.0,December,2019.0,23:00,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA

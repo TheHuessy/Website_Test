@@ -59,6 +59,7 @@ function processData(allText) {
 			- Could probably just modify the HTML table script to pull data from specific columns
 				- Will need to ensure that the data structure never changes...
 			Proposed structure:
+				-First, a containing div that will be the shows section: <div id="Shows">
 				-<div class=[specific class name for CSS to easily format (maybe, maybe not, maybe you have no idea how this works)]>
 					It looks like with CSS you can specify what each element looks like within each div
 						This is good because you can decide on the location, size and color of each line and apply that simply
@@ -67,6 +68,10 @@ function processData(allText) {
 					- Show date [h3?, class=show_date]
 						Play around and see what looks better: show title bigger and first or show date followed by show name
 							If you're doubling+ up, then it might be good to have bigger date followed by the show names data
+							It looks like what I might have to do is redo the data piece to output a json file organized by date
+								Can do something like an element tree in js so that for each date we have a few entries for shows
+									Otherwise you have to worry about seeing date/showname samedate/showname
+									This can wait until you understand and impletment the mechanics of it first
 					- Show Name [h3 or h4, class=show_name]
 						- Ticket linked to title?
 							Pulling that may be tough via google calendar API because you'd have to hunt for URLs somehow in the description
@@ -77,6 +82,75 @@ function processData(allText) {
 						- Would love to do a google link
 					-
 		 -->
+		 <div id="Shows"></div>
+<script type="text/javascript">
+
+			//this was modified from this: https://www.jqueryscript.net/table/jQuery-Plugin-To-Generate-A-Table-From-A-CSV-File-CSV-Parser.html
+			$.get('https://raw.githubusercontent.com/TheHuessy/Website_Test/master/dates.csv', function(data) {
+			// start the table
+			var html = '<div class="Show_Box">';
+	
+			// split into lines
+			var rows = data.split("\n");
+			
+
+			// parse lines
+			rows.forEach(function getvalues(ourrow) {
+ 				var box_iter = box_iter + 1
+				
+
+				// split line into columns
+				if (ourrow == rows[0]){
+					return;
+					}
+
+				else {
+
+					// Show_Name = [0]
+					// Show_Date = [1]
+					// Show_Start_Time = [2]
+					// Show_Street_Address = [3] NEED IF LOGIC FOR TBA, IF TBA: don't worry about the next few variables
+					// Show_City = [4]
+					// Show_State = [5]
+					// Show_Zip = [6]
+
+					//Create split row variable
+					var columns = ourrow.split(",");
+	 				
+	 				//Get show date
+					html += '<h4 class="show_date">' + columns[1] + '</h4>';
+					
+					//Get show name and time if available, else just print the show name
+					if (columns[2] != "??"){
+						html += '<h3 class="show_name_time">' + columns[0] + ' | ' + columns[2] + '</h3>';
+					} else{
+						html += '<h3 class="show_name_time">' + columns[0] + '</h3>';
+					}
+
+					//Get and combine show address, if not present/=TBA, then just pass "TBA"
+					if (columns[3] == "TBA"){
+
+						html += '<h4 class="show_add">' + columns[3] + '</h4>';
+
+					} else {
+
+						html += '<h4 class="show_add">' + columns[3] + '<br>' + columns[4] + ', ' + columns[5] + '</h4>';
+					
+					}
+				}
+				})
+
+			// close div
+			html += "</div><br>";
+
+			// insert into div
+			$('#Shows').append(html);
+				});
+		</script>
+
+
+
+
 
 
 
