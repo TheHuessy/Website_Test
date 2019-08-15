@@ -7,8 +7,65 @@
 [#] = id
 */
 
-body {
-	background-color: #288BE4;
+/*######################### GENERAL FORMATTING #############################*/
+
+/*################# TOP/NAV BAR #####################*/
+
+.Top_Bar {
+	text-align: center;
+	/*background-color: rgba(40, 139, 228, .1);*/
+	background-color: rgba(242, 242, 242, .75);
+	color: #000000;
+	position: -webkit-sticky; /* Safari */
+  	/*position: sticky;*/
+  	position: relative;
+  	top: 0; /* offset from top, more means the top bar moves further down the page*/
+  	overflow: hidden; /*you want hidden which will hide it. The padded hover-over box extends beyond the bottom of the div so you want to hide it to maintain the aesthetic on the other 3 sides */
+  	padding-bottom: -0;
+}
+
+.NavBar {
+    display: inline-block;
+    list-style-type: none;
+    padding-bottom: 0;
+}
+
+/* Style the links inside the navigation bar */
+.NavBar a {
+  float: top;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.NavBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.NavBar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*################# FOOTER #####################*/
+
+div.footer {
+	text-align: center;
+}
+
+
+/*######################### DATES PAGE SPECIFIC #############################*/
+
+
+body.Shows_Body {
+	/*background-color: #288BE4;*/
+	background-color: #000000;
 	background-image: url("Pictures/28943007_10212089561254321_392492789_o.jpg");
 	color: #f2f2f2;
 	background-size: 100% auto;
@@ -33,42 +90,16 @@ body {
 	/*color: #288BE4;*/
 	color: #000000;
 }
-.Top_Bar {
-	/*background-color: rgba(40, 139, 228, .5);*/
-	text-align: center;
-	background-color: rgba(40, 139, 228, 1);
-	position: -webkit-sticky; /* Safari */
-  	position: sticky;
-  	top: 0;
-  	overflow: hidden; /*you want hidden which will hide it. The padded hover-over box extends beyond the bottom of the div so you want to hide it to maintain the aesthetic on the other 3 sides */
-  	padding-bottom: 0;
+
+.Title_Thing {
+	font-size: 24px;
 }
 
-.NavBar {
-    /*display: inline-block;*/
-    /*list-style-type: none;*/
-    padding-bottom: 0;
-}
 
-/* Style the links inside the navigation bar */
-.NavBar a {
-  float: top;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+.Title_Thing:link {
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.NavBar a:hover {
-  background-color: #ddd;
-  color: black;
+.Title_Thing:hover {
+  text-decoration: underline;
 }
-
-/* Add a color to the active/current link */
-.NavBar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-

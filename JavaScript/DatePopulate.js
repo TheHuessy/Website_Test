@@ -15,9 +15,9 @@ rows.forEach(function getvalues(ourrow) {
 if (ourrow == rows[0]){
 	return;
 	}
-if (ourrow == rows[0]){
-	return;
-	}
+// if (ourrow == rows[0]){
+// 	return;
+// 	}
 else {
 
 	// Show_Name = [0]
@@ -31,6 +31,8 @@ else {
 	// Show_City = [8]
 	// Show_State = [9]
 	// Show_Zip = [10]
+	// Show_Country [11]
+	// Ticket_Link = [12]
 
 
 
@@ -46,22 +48,33 @@ else {
 	html += '<div class="Show_Box">';
 		//Get show date, show name, and time
 
-		var date_full = columns[3] + ' ' + columns[2]
+	var date_full = columns[3] + ' ' + columns[2];
 
-		//Evaluate if the date has already been added
-		//If it hasn't, create the ShowDate line, otherwise just create the show info block and keep going
-		if(html.indexOf(date_full) <= 0){
-			html += '<h2 class="show_date">' + columns[3] + ' ' + columns[2] + '</h2><hr width="75%"> ';
-
-			
-		}				
+	//Evaluate if the date has already been added
+	//If it hasn't, create the ShowDate line, otherwise just create the show info block and keep going
+	if(html.indexOf(date_full) <= 0){
+		html += '<h2 class="show_date">' + columns[3] + ' ' + columns[2] + '</h2><hr width="75%"> ';			
+	}				
 	
+	//Prefetch the ticket link after verifying there is one
+	
+	var Tickets = columns[12];
+	console.log("Row: " + columns);
+	
+
+
 	//Get show name and time if available, else just print the show name
 	if (columns[2] != "??"){
-		html += '<h3 class="show_name_time">' + columns[0] + ' | ' + columns[5] + '</h3>';
+		var show_name = columns[0] + ' | ' + columns[5];
+
 	} else{
-		html += '<h3 class="show_name_time">' + columns[0] + '</h3>';
+		var show_name = columns[0] + ' | TBA' ;
 	}
+
+	//Whole Title as linked text
+	html += '<a class="Title_Thing" href="' + Tickets + '">' + show_name + '</a>';
+	//html += '<h3 class="Title_Thing" href="' + Tickets + '">' + show_name + '</h3>';
+
 
 	//Get and combine show venue name, if not present/=TBA, then just pass "TBA"
 	if (columns[6] == "TBA"){

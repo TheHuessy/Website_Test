@@ -15,17 +15,64 @@ You could do all of that on the Pi server you have!
 
 ### Things left to do:
 
- * Go in and add '#comedy' or something similar to all comedy related events going forward
- 	* Want to be able to easily identify the event
- * Rewrite Python to parse calendar data differently
-     * Grab dates you DO have events
-     * Get the following fields:
-     	* Show Name
-     	* Show Date
-     	* Show Start Time
-     	* Show Cost
-     	* Show Location
-     * With show location, see what sort of geocoding/google place API stuff you can do
-     * Generate test file for JS to point to
- * Write Snippet of JS that reads either JSON or CSV data and presents it
- 	* Worry about format later, I'm sure there will be a CSS method to prettify things
+ * Create individual pages
+     * ~~Upcoming Shows~~ [`dates.html`]
+          * Using js to pull in google calednar api
+     * Home Page
+          * Bio
+          * Selected Photos
+               * Sarah Silverman
+               * VCC
+               * Studio
+               * Highlarious
+               * Lawyer Bros
+          * Social Media Links [?]
+               * Not really going to be impressive
+     * Tapes Page
+          * Pull in videos from Youtube
+               * Looks like it should be prety straight forward with an `iframe`
+               * Maybe only the most recent/submission ready one(s)
+                    * Long one (10-12)
+                    * Short one (3-5)
+     * Contact Page
+          * Maybe just a simple but CSS'd html form
+               * Going to have to figure out the email/pop/stmp thing here
+                    * Can't go google because they are stupid
+               * Is it easy to create an email address if you already have a domain?
+     * Blog/Writing Page [?]
+          * __Last Priority__
+          * Basically set up a page that acts like a simple Medium page or something
+               * Wouldn't be bad to at least give yourself the platform to write on
+          * Develop some sort of python tool that you can feed copy into and it will populate the page at the right point
+               * -OR- Just have a `.txt` file on the github page with a specific delineator that will allow a JS script to easily parse it to a div much like you did with the dates page.
+ * Develop a Parallax version of the site and see if you like that more
+ * Develop Design Scheme
+     * Monotone pallet is nice, but maybe venture into something a little more pleasing to others
+     * Get a font group figured out
+          * Not loving the standard times new roman or whatever it is
+ * Get some more, better, photos done
+     * Ugh, paying people to click buttons is silly
+     * Having good, recent photos is not silly
+ * Home Server ETL Work
+     * __Securley__ transfer Google API credentials to home server
+     * Rewrite notebook script to `.py` file and set up cron job on PiNas
+          * Be sure to have it also perform git pushes when it's done
+     
+
+
+
+### Done:
+ * ~~Go in and add '#comedy' or something similar to all comedy related events going forward~~
+ 	* ~~Want to be able to easily identify the event~~
+ * ~~Rewrite Python to parse calendar data differently~~
+     * ~~Grab dates you DO have events~~
+     * ~~Get the following fields:~~
+     	* ~~Show Name~~
+     	* ~~Show Date~~
+     	* ~~Show Start Time~~
+     	* ~~Show Cost~~
+     	* ~~Show Location~~
+     * ~~With show location, see what sort of geocoding/google place API stuff you can do~~
+     * ~~Generate test file for JS to point to~~
+ * ~~Write Snippet of JS that reads either JSON or CSV data and presents it~~
+ 	* ~~Worry about format later, I'm sure there will be a CSS method to prettify things~~
