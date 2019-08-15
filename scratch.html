@@ -45,14 +45,18 @@ function processData(allText) {
 	<title>James Huessy is very important and should be given all the spots</title>
 	</head>
 
-	<body>This is where we would be putting in a lot of things, hopefully a js script, but then maybe also some other things.
-		<h2>Here is an H2 string. CSS will change the looks of it</h2>
-		
-		<br>
-		<h3>H3 here just so there's something to look at</h3>
+	<body> <!-- This is where we would be putting in a lot of things, hopefully a js script, but then maybe also some other things. -->
 		
 		<!-- <h1>JAVASCRIPT ELEMENTS</h1> -->
-		<h2>=================TESTING EVENT LIST FORMATS===============</h2>
+		<div class="Top_Bar">
+			<h2>DATES</h2>
+			<ul class="NavBar">		
+				<a href="#Home">Home</a>
+	  			<a class="active" href="#Dates">Dates</a>
+	  			<a href="#Tapes">Tapes</a>
+	  			<a href="#about">About</a>
+	  		</ul>
+		</div>
 		<!-- Ideas for how to generate this:
 			- Ideally you could have a script that generates each event as a div with all the elements inside it
 			- Could probably just modify the HTML table script to pull data from specific columns
@@ -98,7 +102,7 @@ function processData(allText) {
 			// parse lines
 			rows.forEach(function getvalues(ourrow) { 				
 				
-				html += '<div class="Show_Box">';
+				
 
 				// split line into columns
 				if (ourrow == rows[0]){
@@ -126,13 +130,24 @@ function processData(allText) {
 					//Create split row variable
 					var columns = ourrow.split(",");
 	 				
-					if (columns[0][0] == "undefined"){
+	 				//catch undefined last row which seems to be an issue with this parser
+	 				//it returns a final row after the last row, so we just skip it if it sees it
+					if (columns[1] == null){
 					return;
 				}
 
-
+					html += '<div class="Show_Box">';
 	 				//Get show date, show name, and time
-					html += '<h4 class="show_date">' + columns[3] + ' ' + columns[2] + '</h4>';
+
+	 				var date_full = columns[3] + ' ' + columns[2]
+
+	 				//Evaluate if the date has already been added
+	 				//If it hasn't, create the ShowDate line, otherwise just create the show info block and keep going
+	 				if(html.indexOf(date_full) <= 0){
+	 					html += '<h2 class="show_date">' + columns[3] + ' ' + columns[2] + '</h2><hr width="75%"> ';
+
+	 					
+	 				}				
 					
 					//Get show name and time if available, else just print the show name
 					if (columns[2] != "??"){
@@ -172,7 +187,7 @@ function processData(allText) {
 
 
 
-		<h4>An H4 Bit of text</h4>
+		<!-- <h4>An H4 Bit of text</h4>
 		<h5>An H5 Bit of text</h5>
 		<h6>An H6 Bit of text</h6>
 
@@ -256,7 +271,7 @@ function processData(allText) {
 
 		</script>
 
-		<!--
+		
 		<script type="text/javascript"> 
 			
 				document.write("Javascript document.write() function!");
