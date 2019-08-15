@@ -43,7 +43,7 @@ else {
 		//it returns a final row after the last row, so we just skip it if it sees it
 	if (columns[1] == null){
 	return;
-}
+	}
 
 	html += '<div class="Show_Box">';
 		//Get show date, show name, and time
@@ -56,10 +56,6 @@ else {
 		html += '<h2 class="show_date">' + columns[3] + ' ' + columns[2] + '</h2><hr width="75%"> ';			
 	}				
 	
-	
-
-
-
 	//Get show name and time if available, else just print the show name
 	if (columns[2] != "??"){
 		var show_name = columns[0] + ' | ' + columns[5]
