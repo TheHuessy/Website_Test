@@ -15,9 +15,9 @@ rows.forEach(function getvalues(ourrow) {
 if (ourrow == rows[0]){
 	return;
 	}
-// if (ourrow == rows[0]){
-// 	return;
-// 	}
+if (ourrow == rows[0]){
+	return;
+	}
 else {
 
 	// Show_Name = [0]
@@ -48,7 +48,7 @@ else {
 	html += '<div class="Show_Box">';
 		//Get show date, show name, and time
 
-	var date_full = columns[3] + ' ' + columns[2];
+	var date_full = columns[3] + ' ' + columns[2]
 
 	//Evaluate if the date has already been added
 	//If it hasn't, create the ShowDate line, otherwise just create the show info block and keep going
@@ -56,34 +56,37 @@ else {
 		html += '<h2 class="show_date">' + columns[3] + ' ' + columns[2] + '</h2><hr width="75%"> ';			
 	}				
 	
-	//Prefetch the ticket link after verifying there is one
 	
-	var Tickets = columns[12];
-	console.log("Row: " + columns);
-	
+
 
 
 	//Get show name and time if available, else just print the show name
 	if (columns[2] != "??"){
-		var show_name = columns[0] + ' | ' + columns[5];
+		var show_name = columns[0] + ' | ' + columns[5]
 
 	} else{
-		var show_name = columns[0] + ' | TBA' ;
+		var show_name = columns[0] + ' | TBA' 
 	}
 
-	//Whole Title as linked text
-	html += '<a class="Title_Thing" href="' + Tickets + '">' + show_name + '</a>';
-	//html += '<h3 class="Title_Thing" href="' + Tickets + '">' + show_name + '</h3>';
-
+	//Prefetch the ticket link after verifying there is one	
+	// if (columns[12] == null){
+	if (columns[12] == ""){
+		html += '<a class="Title_Thing">' + show_name + '</a>';
+		
+	} else{
+		var Tickets = columns[12]
+		html += '<a class="Title_Thing" target="_blank" href="' + Tickets + '">' + show_name + '</a>';
+		
+	}
 
 	//Get and combine show venue name, if not present/=TBA, then just pass "TBA"
 	if (columns[6] == "TBA"){
 
-		html += '<h5 class="show_add">' + columns[6] + '</h5>';
+		html += '<p class="show_add">' + columns[6] + '</p>';
 
 	} else {
 
-		html += '<h5 class="show_add">' + columns[6] + '<br>' + columns[7] + '<br>' + columns[8] + ', ' + columns[9] + '</h5>';
+		html += '<p class="show_add">' + columns[6] + '<br>' + columns[7] + '<br>' + columns[8] + ', ' + columns[9] + '</p>';
 	
 	}
 }

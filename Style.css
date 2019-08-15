@@ -9,33 +9,63 @@
 
 /*######################### GENERAL FORMATTING #############################*/
 
+.Page_Title {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+header {
+	width:100%;
+	/*position:absolute;*/
+	/*top:0;*/
+	left:0;
+}
+/*################# GENERAL BODY #####################*/
+
+body {
+	font-family: "Arial Black", Gadget, sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
 /*################# TOP/NAV BAR #####################*/
 
 .Top_Bar {
+	top: 0; /* offset from top, more means the top bar moves further down the page*/
 	text-align: center;
+	padding-top: 0px;
+  	padding-bottom: 0px;
+  	margin-top: -10px;
+  	margin-bottom: 0px;
+  	width: 100%;
+  	margin-right: 8px;
+  	margin-left: -8px;
 	/*background-color: rgba(40, 139, 228, .1);*/
 	background-color: rgba(242, 242, 242, .75);
 	color: #000000;
-	position: -webkit-sticky; /* Safari */
+	/*position: -webkit-sticky; /* Safari */*/
   	/*position: sticky;*/
-  	position: relative;
-  	top: 0; /* offset from top, more means the top bar moves further down the page*/
+  	position: fixed;  	
   	overflow: hidden; /*you want hidden which will hide it. The padded hover-over box extends beyond the bottom of the div so you want to hide it to maintain the aesthetic on the other 3 sides */
-  	padding-bottom: -0;
+  	padding-bottom: 0;
 }
 
 .NavBar {
     display: inline-block;
     list-style-type: none;
     padding-bottom: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 /* Style the links inside the navigation bar */
 .NavBar a {
   float: top;
-  color: #000000;
+  color: #000000;  
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 16px;  
   text-decoration: none;
   font-size: 17px;
 
@@ -49,7 +79,8 @@
 
 /* Add a color to the active/current link */
 .NavBar a.active {
-  background-color: #4CAF50;
+  /*background-color: #4CAF50;*/
+  background-color: #000000;
   color: white;
 }
 
@@ -58,6 +89,22 @@
 div.footer {
 	text-align: center;
 }
+
+/*######################### HOME PAGE SPECIFIC #############################*/
+
+body.Home_Body {
+	background-color: #000000;
+	top: 50;
+	/*background-image: url("Pictures/Headshot.jpg");*/
+	background-image: url("Pictures/46435968_10156544065630520_3228882814573215744_o.jpg");
+	color: #f2f2f2;
+	background-size: 100% auto;
+	background-position: 0 -100px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
 
 
 /*######################### DATES PAGE SPECIFIC #############################*/
@@ -72,6 +119,7 @@ body.Shows_Body {
 	background-position: 0 -100px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	
 }
 
 .show_date{
@@ -85,10 +133,10 @@ body.Shows_Body {
 	margin: auto;
 	/*background-color: #F2F2F2;*/
 	background-color: rgba(242, 242, 242, .75);
-
 	width: 50%;
 	/*color: #288BE4;*/
 	color: #000000;
+	overflow-wrap: break-word;
 }
 
 .Title_Thing {
@@ -98,8 +146,36 @@ body.Shows_Body {
 
 .Title_Thing:link {
   text-decoration: none;
+  color: inherit;
+}
+
+.Title_Thing:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 .Title_Thing:hover {
   text-decoration: underline;
 }
+
+
+/*######################### TAPES PAGE SPECIFIC #############################*/
+
+body.Tapes_Body {
+	background-color: #000000;
+	/*top: -50;*/
+
+	background-image: url("Pictures/Headshot.jpg");
+
+	/*background-image: url("Pictures/James Huessy Yum.jpg");*/
+	color: #f2f2f2;
+	/*background-size: 100% auto;*/
+	background-size: cover;
+	/*width: auto;*/
+	/*background-position: -1000px -300px;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	align-items: center;
+	
+}
+

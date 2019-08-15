@@ -18,7 +18,7 @@ You could do all of that on the Pi server you have!
  * Create individual pages
      * ~~Upcoming Shows~~ [`dates.html`]
           * Using js to pull in google calednar api
-     * Home Page
+     * Home Page [`home.html`]
           * Bio
           * Selected Photos
                * Sarah Silverman
@@ -28,7 +28,7 @@ You could do all of that on the Pi server you have!
                * Lawyer Bros
           * Social Media Links [?]
                * Not really going to be impressive
-     * Tapes Page
+     * Tapes Page [`tapes.html`]
           * Pull in videos from Youtube
                * Looks like it should be prety straight forward with an `iframe`
                * Maybe only the most recent/submission ready one(s)
@@ -50,6 +50,9 @@ You could do all of that on the Pi server you have!
      * Monotone pallet is nice, but maybe venture into something a little more pleasing to others
      * Get a font group figured out
           * Not loving the standard times new roman or whatever it is
+ * Resize existing photos
+     * Bigger isn't better it would seem
+          * Need to find the best size for loading without looking like total garbage
  * Get some more, better, photos done
      * Ugh, paying people to click buttons is silly
      * Having good, recent photos is not silly
