@@ -4,3 +4,16 @@ If not, well, then it won't matter because you can't read this.
 Guess what? THIS is the line that matters to be seen, all those others were just immitating...
 Even more lines
 and more!
+
+Okay, but for realsies, this is the command in cron that's actually going to work:
+
+## First get your path together so that it includes the needed librarys/functions/whatever.
+### It's the path to the directory in question separated by a colon ':'
+
+Here's the example from New Deathstar:
+
+```
+PATH="/usr/local/sbin:/usr/local/bin/geckodriver:/usr/bin/git:[... blah blah]"
+
+0 1 * * * bash /home/james/Documents/GitCron.sh > /home/james/Documents/Cronlog.log 2>&1
+```
