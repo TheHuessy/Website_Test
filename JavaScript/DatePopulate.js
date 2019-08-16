@@ -1,10 +1,20 @@
 //this was modified from this: https://www.jqueryscript.net/table/jQuery-Plugin-To-Generate-A-Table-From-A-CSV-File-CSV-Parser.html
-$.get('https://raw.githubusercontent.com/TheHuessy/Website_Test/master/dates.csv', function(data) {
+$.get('https://raw.githubusercontent.com/TheHuessy/Website_Test/master/Data/dates.csv', function(data) {
 // start the table
 var html = '';
 
 // split into lines
 var rows = data.split("\n");
+
+var keys = Object.keys(rows);
+
+var len = keys.length;
+
+if (len == 1){
+	html += '<div class="Show_Box">';
+	html += '<h2 class="show_date"> More Shows To Be Announced Soon' +  '</h2><hr width="75%"> ';
+	html += "</div>";
+} else {
 
 // parse lines
 rows.forEach(function getvalues(ourrow) { 			
@@ -91,6 +101,7 @@ html += "</div>";
 
 // close div
 html += "</div><br>";
+}
 
 // insert into div
 $('#Shows').append(html);

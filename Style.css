@@ -86,7 +86,7 @@ body {
 
 /*################# FOOTER #####################*/
 
-div.footer {
+div#footer {
 	text-align: center;
 }
 
@@ -94,6 +94,7 @@ div.footer {
 
 body.Home_Body {
 	background-color: #000000;
+	text-align: center;
 	top: 50;
 	/*background-image: url("Pictures/Headshot.jpg");*/
 	background-image: url("Pictures/46435968_10156544065630520_3228882814573215744_o.jpg");
@@ -103,6 +104,20 @@ body.Home_Body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	
+}
+
+.Greeting {
+	background-color: rgba(242,242,242, .75);
+	color: #000000;
+	margin: auto;
+	width: 15%;
+}
+
+#Bio_copy {
+	background-color: rgba(242,242,242, .75);
+	color: #000000;
+	width: 50%;
+	margin: auto;
 }
 
 
@@ -120,6 +135,16 @@ body.Shows_Body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	
+}
+
+div#Shows_Header_div {
+	margin: auto auto;
+	/*align-self: center;*/
+	background-color: rgba(242,242,242, .75);
+	color: #000000;
+	width: 50%;
+	text-align: center;
+
 }
 
 .show_date{
@@ -163,6 +188,8 @@ body.Shows_Body {
 
 body.Tapes_Body {
 	background-color: #000000;
+	text-align: center;
+	align-items: center;
 	/*top: -50;*/
 
 	background-image: url("Pictures/Headshot.jpg");
@@ -177,5 +204,44 @@ body.Tapes_Body {
 	background-attachment: fixed;
 	align-items: center;
 	
+}
+
+div#Tape_1_Header_div {
+	margin: auto auto;
+	/*align-self: center;*/
+	background-color: rgba(0,0,0, .75);
+	width: 50%;
+	text-align: center;
+
+}
+
+/*######################### CONTACT PAGE SPECIFIC #############################*/
+
+body.Contact_Body {
+	background-color: #000000;
+	text-align: center;
+	top: 50;
+	/*background-image: url("Pictures/Headshot.jpg");*/
+	background-image: url("Pictures/64542141_438180620069442_5853375494791102464_n.jpg");
+	color: #f2f2f2;
+	background-size: 100% auto;
+	background-position: 0 -600px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.Greeting {
+	background-color: rgba(242,242,242, .75);
+	color: #000000;
+	margin: auto;
+	width: 15%;
+}
+
+#Bio_copy {
+	background-color: rgba(242,242,242, .75);
+	color: #000000;
+	width: 50%;
+	margin: auto;
 }
 
