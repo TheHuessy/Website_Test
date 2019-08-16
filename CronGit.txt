@@ -1,1 +1,3 @@
 Git add/commit/push as cron job test file
+If you're reading this then it worked as a cronjob!
+If not, well, then it won't matter because you can't read this
