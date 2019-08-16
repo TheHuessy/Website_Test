@@ -7,7 +7,7 @@ var html = '';
 var rows = data.split("\n");
 
 // parse lines
-rows.forEach(function getvalues(ourrow) { 				
+rows.forEach(function getvalues(ourrow) { 			
 
 
 
@@ -33,7 +33,6 @@ else {
 	// Show_Zip = [10]
 	// Show_Country [11]
 	// Ticket_Link = [12]
-
 
 
 	//Create split row variable
