@@ -274,16 +274,18 @@ div.Media_Links{
 
 .Social_Link:link {
   text-decoration: none;
-  color: inherit;
+  color: #000000;
 }
 
 .Social_Link:visited {
   text-decoration: none;
-  color: inherit;
+  color: #000000;
 }
 
 .Social_Link:hover {
   text-decoration: underline;
+  color: #000000;
+  
 }
 
 
