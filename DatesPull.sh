@@ -3,6 +3,13 @@
 #!/usr/bin/python3
 #!/usr/bin/git
 
-/usr/bin/python3 /home/pi/Documents/Website_Test/DatesPull.py
+
+DATE = `date`
+
 cd /home/pi/Documents/Website_Test
-/usr/bin/git status > /home/pi/Documents/Website_Test/ETL.log 2>&1
+/usr/bin/python3 DatesPull.py > /home/pi/Documents/Website_Test/ETL.log 2>&1
+echo --------------------- >> /home/pi/Documents/Website_Test/ETL.log 2>&1
+/usr/bin/git add . >> /home/pi/Documents/Website_Test/ETL.log 2>&1
+/usr/bin/git commit -m 'auto_commit_$DATE' >> /home/pi/Documents/Website_Test/ETL.log 2>&1
+/usr/bin/git push >> /home/pi/Documents/Website_Test/ETL.log 2>&1
+echo ===================== >> /home/pi/Documents/Website_Test/ETL.log 2>&1
