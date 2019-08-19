@@ -97,7 +97,7 @@ body.Home_Body {
 	text-align: center;
 	top: 50;
 	/*background-image: url("Pictures/Headshot.jpg");*/
-	background-image: url("Pictures/46435968_10156544065630520_3228882814573215744_o.jpg");
+	background-image: url("Pictures/Index_Image.jpg");
 	color: #f2f2f2;
 	background-size: 100% auto;
 	background-position: 0 -100px;
@@ -128,7 +128,7 @@ body.Home_Body {
 body.Shows_Body {
 	/*background-color: #288BE4;*/
 	background-color: #000000;
-	background-image: url("Pictures/28943007_10212089561254321_392492789_o.jpg");
+	background-image: url("Pictures/Dates_Image.jpg");
 	color: #f2f2f2;
 	background-size: 100% auto;
 	background-position: 0 -100px;
@@ -212,7 +212,7 @@ body.Tapes_Body {
 	align-items: center;
 	/*top: -50;*/
 
-	background-image: url("Pictures/Headshot.jpg");
+	background-image: url("Pictures/Headshot_Resize.jpg");
 
 	/*background-image: url("Pictures/James Huessy Yum.jpg");*/
 	color: #f2f2f2;
