@@ -248,15 +248,46 @@ body.Contact_Body {
 	background-position: 0 -600px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	align-items: center;
+	
+
 	
 }
+div.Media_Links{
+	display: flex;
+	width: 80%;	
+	align-items: center;
+	margin: auto;
+}
 
-.Contact_Greeting {
+.Social_Link {
 	background-color: rgba(242,242,242, .75);
 	color: #000000;
-	margin: auto;
-	width: 50%;
+	margin: 10px;
+	width: 25%;
+	align-items: center;
+	flex-grow: 1;
+	display: inline-block;
+
 }
+
+
+.Social_Link:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Social_Link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Social_Link:hover {
+  text-decoration: underline;
+}
+
+
+
 
 #Bio_copy {
 	background-color: rgba(242,242,242, .75);
