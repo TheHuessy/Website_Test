@@ -251,11 +251,11 @@ body.Contact_Body {
 	
 }
 
-.Greeting {
+.Contact_Greeting {
 	background-color: rgba(242,242,242, .75);
 	color: #000000;
 	margin: auto;
-	width: 15%;
+	width: 50%;
 }
 
 #Bio_copy {
