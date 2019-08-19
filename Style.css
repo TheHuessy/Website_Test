@@ -97,10 +97,16 @@ body.Home_Body {
 	text-align: center;
 	top: 50;
 	/*background-image: url("Pictures/Headshot.jpg");*/
-	background-image: url("Pictures/Index_Image.jpg");
+	background-image: url("Pictures/Cropped/Index_Background.jpg");
+	background-size: cover;
+  	/*background-size: cover;*/
 	color: #f2f2f2;
-	background-size: 100% auto;
-	background-position: 0 -100px;
+
+  	width: 100%;
+  	/*overflow: hidden;*/
+	/*background-size: 100% auto;*/
+	background-size: auto;
+	/*background-position: 0 -100px;*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	
@@ -128,10 +134,12 @@ body.Home_Body {
 body.Shows_Body {
 	/*background-color: #288BE4;*/
 	background-color: #000000;
-	background-image: url("Pictures/Dates_Image.jpg");
+	background-image: url("Pictures/Cropped/Dates_Background.jpg");
+	background-size: cover;
 	color: #f2f2f2;
-	background-size: 100% auto;
-	background-position: 0 -100px;
+	/*background-size: 100% auto;*/
+	/*background-size: auto;*/
+	/*background-position: 0 -100px;*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	
@@ -212,12 +220,13 @@ body.Tapes_Body {
 	align-items: center;
 	/*top: -50;*/
 
-	background-image: url("Pictures/Headshot_Resize.jpg");
-
+	background-image: url("Pictures/Cropped/Tapes_Background.jpg");
+	background-size: cover;
 	/*background-image: url("Pictures/James Huessy Yum.jpg");*/
 	color: #f2f2f2;
 	/*background-size: 100% auto;*/
-	background-size: cover;
+	/*background-size: cover;*/
+	/*background-size: auto;*/
 	/*width: auto;*/
 	/*background-position: -1000px -300px;*/
 	background-repeat: no-repeat;
@@ -242,10 +251,18 @@ body.Contact_Body {
 	text-align: center;
 	top: 50;
 	/*background-image: url("Pictures/Headshot.jpg");*/
-	background-image: url("Pictures/64542141_438180620069442_5853375494791102464_n.jpg");
+	background-image: url("Pictures/Cropped/Contact_Background.jpg");
 	color: #f2f2f2;
-	background-size: 100% auto;
-	background-position: 0 -600px;
+	/*background-size: 100% auto;*/
+
+
+	/*background-size: 2048px 1367px;*/
+	/*background-size: auto;*/
+	background-size: cover;
+	
+
+
+	/*background-position: 0 -600px;*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	align-items: center;
@@ -285,7 +302,7 @@ div.Media_Links{
 .Social_Link:hover {
   text-decoration: underline;
   color: #000000;
-  
+
 }
 
 
