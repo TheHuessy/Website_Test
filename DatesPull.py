@@ -28,7 +28,8 @@ termine = pd.DataFrame({"Show_Name":[],
 
  ## SCOPES AND CREDENTIAL LOCATION CODING
 SCOPES = ['https://www.googleapis.com/auth/calendar']
-SERVICE_ACCOUNT_FILE = '/home/james/Documents/PythonNotebooks/Calendar API/calendar.json'
+## SERVICE_ACCOUNT_FILE = '/home/james/Documents/PythonNotebooks/Calendar API/calendar.json'
+SERVICE_ACCOUNT_FILE = '/home/pi/Documents/calendar.json'
 
 ## BUILDING CREDENTIAL OBJECT
 print("BUILDING CREDENTIAL OBJECT")
@@ -62,7 +63,6 @@ else:
 for i in range(len(events)):
     tst = events.description[i]
     if isinstance(tst, float):
-        #print("It's a float!")
         continue
     elif '#comedy' in tst:
         # Get manually entered ticket link from description if it's there
@@ -154,6 +154,6 @@ termine['Show_Day'] = pd.to_numeric(termine['Show_Day'], downcast='integer')
 termine['Show_Year'] = pd.to_numeric(termine['Show_Year'], downcast='integer')
 termine = termine.sort_values(by=['Show_Date', 'Show_Start_Time'], axis=0)
 
-termine.to_csv("dates.csv", index=False)
+termine.to_csv("Website_Test/dates.csv", index=False)
 
 print("Done")
