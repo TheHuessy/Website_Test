@@ -4,7 +4,7 @@
 #!/usr/bin/git
 
 
-DATE=$(date +"%m%d%Y%")
+DATE=$(date +"%m%d%Y")
 
 cd /home/pi/Documents/Website_Test
 echo $DATE > /home/pi/Documents/Website_Test/ETL.log 2>&1
