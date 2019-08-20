@@ -7,7 +7,7 @@ Done
 ---------------------
 PULLING...
 From https://github.com/TheHuessy/Website_Test
-   448596a..341c093  master     -> origin/master
+   341c093..0f807f0  master     -> origin/master
 Merge made by the 'recursive' strategy.
  DatesPull.sh | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
