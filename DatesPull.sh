@@ -17,5 +17,5 @@ sudo /usr/bin/git add . >> /home/pi/Documents/Website_Test/ETL.log 2>&1
 echo COMMITTING... >> /home/pi/Documents/Website_Test/ETL.log 2>&1
 sudo /usr/bin/git commit -m 'auto_commit_$DATE' >> /home/pi/Documents/Website_Test/ETL.log 2>&1
 echo PUSHING >> /home/pi/Documents/Website_Test/ETL.log 2>&1
-sudo /usr/bin/git push origin master
+sudo /usr/bin/git push origin master >> /home/pi/Documents/Website_Test/ETL.log 2>&1
 echo ===================== >> /home/pi/Documents/Website_Test/ETL.log 2>&1
