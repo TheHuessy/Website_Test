@@ -4,7 +4,7 @@
 #!/usr/bin/git
 
 
-DATE = `date`
+DATE=$(date +"%m%d%Y%")
 
 cd /home/pi/Documents/Website_Test
 /usr/bin/python3 DatesPull.py > /home/pi/Documents/Website_Test/ETL.log 2>&1
