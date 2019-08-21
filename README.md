@@ -16,43 +16,41 @@ The goal will be to use [Netlify](https://www.netlify.com/) to host, meaning tha
 You could do all of that on the Pi server you have!
 
 ### Things left to do:
+ * Work on mobile version of site
+     * first try using media queries to account for device size. [Ref](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+          * Decide on min/max size thresholds for the following display types
+               * Phone (Android)
+                    * Landscape
+                    * Portrait
+               * Phone (iPhone)
+                    * Landscape
+                    * Portrait
+               * Tablet (Android)
+                    * Landscape
+                    * Portrait
+               * Tablet (iPad)
+                    * Landscape
+                    * Portrait
+          * Create 'mobile' versions of backgrounds and store them in appropriate folders under 'Pictures'
+          * Decide on appropriate text sizes given a display type
+          * Might be other element tinkering needed while testing on devices
+ * Get ETL of dates data up and running
+     * Currently running into github authentication problems in cron
+          * might need to switch to ssh instead of https for this job
+               * figure out what sort of private public key pair you need to generate on the Pi to make that happen
+     
 
- * Create individual pages
-     * ~~Upcoming Shows~~ [`dates.html`]
-          * Using js to pull in google calednar api
-     * ~~Home Page [`home.html`]~~
-          * Bio
-          * Selected Photos
-               * Sarah Silverman
-               * VCC
-               * Studio
-               * Highlarious
-               * Lawyer Bros
-          * Social Media Links [?]
-               * Not really going to be impressive
-     * ~~Tapes Page [`tapes.html`]~~
-          * Pull in videos from Youtube
-               * Looks like it should be prety straight forward with an `iframe`
-               * Maybe only the most recent/submission ready one(s)
-                    * Long one (10-12)
-                    * Short one (3-5)
-     * ~~Contact Page~~ [`contac.html`]
-          * Maybe just a simple but CSS'd html form
-               * Going to have to figure out the email/pop/stmp thing here
-                    * Can't go google because they are stupid
-               * Is it easy to create an email address if you already have a domain?
-               * Best to probs 
-     * Blog/Writing Page [?]
-          * __Last Priority__
-          * Basically set up a page that acts like a simple Medium page or something
-               * Wouldn't be bad to at least give yourself the platform to write on
-          * Develop some sort of python tool that you can feed copy into and it will populate the page at the right point
-               * -OR- Just have a `.txt` file on the github page with a specific delineator that will allow a JS script to easily parse it to a div much like you did with the dates page.
- * Develop a Parallax version of the site and see if you like that more
+### On hold for the time being:
+ * Blog/Writing Page [?]
+     * __Last Priority__
+     * Basically set up a page that acts like a simple Medium page or something
+          * Wouldn't be bad to at least give yourself the platform to write on
+     * Develop some sort of python tool that you can feed copy into and it will populate the page at the right point
+          * -OR- Just have a `.txt` file on the github page with a specific delineator that will allow a JS script to easily parse it to a div much like you did with the dates page.
+ 
  * Get some more, better, photos done
      * Ugh, paying people to click buttons is silly
      * Having good, recent photos is not silly
-     
 
 
 
@@ -82,3 +80,30 @@ You could do all of that on the Pi server you have!
  * ~~Resize existing photos~~
      * ~~Bigger isn't better it would seem~~
           * ~~Need to find the best size for loading without looking like total garbage~~
+
+ * ~~Create individual pages~~
+     * ~~Upcoming Shows~~ [`dates.html`]
+          * Using js to pull in google calednar api
+     * ~~Home Page [`home.html`]~~
+          * Bio
+          * Selected Photos
+               * Sarah Silverman
+               * VCC
+               * Studio
+               * Highlarious
+               * Lawyer Bros
+          * Social Media Links [?]
+               * Not really going to be impressive
+     * ~~Tapes Page [`tapes.html`]~~
+          * Pull in videos from Youtube
+               * Looks like it should be prety straight forward with an `iframe`
+               * Maybe only the most recent/submission ready one(s)
+                    * Long one (10-12)
+                    * Short one (3-5)
+     * ~~Contact Page~~ [`contac.html`]
+          * Maybe just a simple but CSS'd html form
+               * Going to have to figure out the email/pop/stmp thing here
+                    * Can't go google because they are stupid
+               * Is it easy to create an email address if you already have a domain?
+               * Best to probs 
+     * ~~Develop a Parallax version of the site and see if you like that more~~
