@@ -17,7 +17,7 @@ You could do all of that on the Pi server you have!
 
 ### Things left to do:
  * Work on mobile version of site
-     * first try using media queries to account for device size. [Ref](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+     * first try using media queries to account for device size. [Ref](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) [design ref](https://www.webmalama.com/the-best-full-screen-background-image-sizes-for-web-design/)
           * Decide on min/max size thresholds for the following display types
                * Phone (Android)
                     * Landscape
@@ -34,6 +34,9 @@ You could do all of that on the Pi server you have!
           * Create 'mobile' versions of backgrounds and store them in appropriate folders under 'Pictures'
           * Decide on appropriate text sizes given a display type
           * Might be other element tinkering needed while testing on devices
+     * It might just be worth it to rely on landscape for desktops and portorait for most mobile devices
+          * that is, try to create backgrounds for landscape and portrait orientations and see if that works
+
  * Get ETL of dates data up and running
      * Currently running into github authentication problems in cron
           * might need to switch to ssh instead of https for this job
