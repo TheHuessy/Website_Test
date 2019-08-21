@@ -9,6 +9,19 @@ from calendar import monthcalendar as mc
 ######GETTING ALL EVENTS######
 ##############################
 
+cols = ["Show_Name",
+"Show_Date",
+"Show_Day",
+"Show_Month",
+"Show_Year",
+"Show_Start_Time",
+"Show_Venue_Name",
+"Show_Street_Address",
+"Show_City",
+"Show_State",
+"Show_Zip",
+"Show_Country",
+"Ticket_Link"]
 
 
 termine = pd.DataFrame({"Show_Name":[],
@@ -154,6 +167,9 @@ termine['Show_Day'] = pd.to_numeric(termine['Show_Day'], downcast='integer')
 termine['Show_Year'] = pd.to_numeric(termine['Show_Year'], downcast='integer')
 termine = termine.sort_values(by=['Show_Date', 'Show_Start_Time'], axis=0)
 
-termine.to_csv("Website_Test/dates.csv", index=False)
+termine.to_csv("/home/pi/Documents/Website_Test/Data/dates.csv", 
+    index=False,
+    columns=cols
+    )
 
 print("Done")
