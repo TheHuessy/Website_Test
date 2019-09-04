@@ -20,6 +20,8 @@
 /*###                                                                                                                    ###*/
 /*##########################################################################################################################*/
 
+@media only screen and (orientation: landscape) {
+
 /*######################### GENERAL FORMATTING #############################*/
 
 .Page_Title {
@@ -329,6 +331,7 @@ div.Media_Links{
 }
 
 
+} /* END LANDSCAPE SCREEN ELEMENTS */
 
 /*##########################################################################################################################*/
 /*###                                                                                                                    ###*/
@@ -336,9 +339,8 @@ div.Media_Links{
 /*###                                                                                                                    ###*/
 /*##########################################################################################################################*/
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
+@media only screen and (orientation: portrait) {
+
+	/*MOBILE FRIENDLY IMAGES AND LAYOUTS*/
+
 }

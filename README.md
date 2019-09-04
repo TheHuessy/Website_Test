@@ -38,9 +38,12 @@ You could do all of that on the Pi server you have!
           * that is, try to create backgrounds for landscape and portrait orientations and see if that works
 
  * Get ETL of dates data up and running
+     * **FIGURE OUT WHY THE PI HAS DIED!!!!!!**
      * Currently running into github authentication problems in cron
           * might need to switch to ssh instead of https for this job
                * figure out what sort of private public key pair you need to generate on the Pi to make that happen
+          * Be sure to create the ssh credentials for the root user on the pi
+               * it looks like that is a common problem as root runs cron in certain situations
      
 
 ### On hold for the time being:
