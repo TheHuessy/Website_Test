@@ -40,6 +40,9 @@ You could do all of that on the Pi server you have!
  * Get ETL of dates data up and running
      * **FIGURE OUT WHY THE PI HAS DIED!!!!!!**
      * Currently running into github authentication problems in cron
+          * [This](https://stackoverflow.com/questions/7548661/git-github-cant-push-to-master) link might help, the answer has you setting an origin which might be needed
+               * that being said, if you can push in a non-cron environment, this may not solve the problem in a cron environment
+                    * HOWEVER, you might want to try to add the origin setting command to the bash file for the fun of it
           * might need to switch to ssh instead of https for this job
                * figure out what sort of private public key pair you need to generate on the Pi to make that happen
           * Be sure to create the ssh credentials for the root user on the pi
