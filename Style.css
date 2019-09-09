@@ -319,7 +319,8 @@ div.Media_Links{
 	body.Shows_Body {
 		background-color: #000000;
 		background-image: url("Pictures/Mobile/Dates_Image_w320.jpg");
-		background-size: cover;
+		/*background-size: cover;*/
+		background-size: auto;
 		color: #f2f2f2;
 		background-repeat: no-repeat;
 		background-attachment: fixed;		
