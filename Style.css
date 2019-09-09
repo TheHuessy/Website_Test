@@ -319,6 +319,22 @@ div.Media_Links{
 	body.Shows_Body {
 		background-color: #000000;
 		background-image: url("Pictures/Mobile/Dates_Image_w320.jpg");
+		
+		/*Going to have to fiddle with placements of pictures, not to mention elements 
+		like the top navbar that need to not collapse over itself. 
+
+		You may even want to spend the time on going through and creating a portrait site
+		intended for mobile devices and then a landscpae site (basically what you have right now)
+
+		Otherwise you're going to end up having to make multiple tweaks got a longish period
+
+		I'm specifically worried about how the dates blocks will render on mobile. They
+		appear to be a little bit over crowded, you may want to reduce fonts size by X% 
+		when in portrait mode.
+
+
+		*/
+
 		/*background-size: cover;*/
 		
 		/*background-size: contain;*/
