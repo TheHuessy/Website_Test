@@ -167,6 +167,7 @@ termine['Show_Day'] = pd.to_numeric(termine['Show_Day'], downcast='integer')
 termine['Show_Year'] = pd.to_numeric(termine['Show_Year'], downcast='integer')
 termine = termine.sort_values(by=['Show_Date', 'Show_Start_Time'], axis=0)
 
+# termine.to_csv("/home/james/Documents/JavaScript/Data/dates.csv", 
 termine.to_csv("/home/pi/Documents/Website_Test/Data/dates.csv", 
     index=False,
     columns=cols
