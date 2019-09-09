@@ -320,7 +320,9 @@ div.Media_Links{
 		background-color: #000000;
 		background-image: url("Pictures/Mobile/Dates_Image_w320.jpg");
 		/*background-size: cover;*/
-		background-size: contain;
+		
+		/*background-size: contain;*/
+		background-size: 100%;
 		color: #f2f2f2;
 		background-repeat: no-repeat;
 		background-attachment: fixed;		
