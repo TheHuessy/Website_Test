@@ -161,6 +161,7 @@ for i in range(len(events)):
                                "Show_Zip": [loc_zip],
                                "Show_Country": [loc_country],
                                "Ticket_Link": [tkt_link]})
+        # print(loader)
         termine = termine.append(loader)
 
 termine['Show_Day'] = pd.to_numeric(termine['Show_Day'], downcast='integer')
