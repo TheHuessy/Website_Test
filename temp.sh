@@ -5,7 +5,7 @@
 
 
 DATE=$(date +"%m%d%Y")
-echo $DATE > /home/pi/Documents/Website_Test/ETL.log 2>&1
+$DATE > /home/pi/Documents/Website_Test/ETL.log 2>&1
 cd /home/pi/Documents/Website_Test
 ls > /home/pi/Documents/Website_Test/ETL.log 2>&1
 # echo $DATE > /home/pi/Documents/Website_Test/ETL.log 2>&1
