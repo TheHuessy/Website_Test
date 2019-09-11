@@ -8,7 +8,7 @@ DATE_T=$(date +"%m%d%Y")
 cd /home/pi/Documents/Website_Test
 echo "$DATE_T" > /home/pi/Documents/Website_Test/ETL.log 2>&1
 
-ls >> /home/pi/Documents/Website_Test/ETL.log 2>&1
+# ls >> /home/pi/Documents/Website_Test/ETL.log 2>&1
 # echo $DATE > /home/pi/Documents/Website_Test/ETL.log 2>&1
 # sudo /usr/bin/python3 DatesPull.py >> /home/pi/Documents/Website_Test/ETL.log 2>&1
 # echo --------------------- >> /home/pi/Documents/Website_Test/ETL.log 2>&1
