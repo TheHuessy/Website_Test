@@ -1,12 +1,21 @@
 Show_Name,Show_Date,Show_Day,Show_Month,Show_Year,Show_Start_Time,Show_Venue_Name,Show_Street_Address,Show_City,Show_State,Show_Zip,Show_Country,Ticket_Link
+<<<<<<< HEAD
 Comedy Studio,09/08/19,8,September,2019,08:00 PM,The Comedy Studio,1 Bow Market Way #23,Somerville,MA,02143,USA,http://thecomedystudio.com/
+=======
+Hosting Cityside,09/09/19,9,September,2019,08:00 PM,Cityside Bar,1960 Beacon St,Brighton,MA,02135,USA,https://www.eventbrite.com/e/cityside-comedy-free-show-every-monday-tickets-28382528908
+>>>>>>> f678f046b0f1991d6963913c5108f8f8b3c04aa4
 Burren,09/11/19,11,September,2019,09:00 PM,The Burren,247 Elm St,Somerville,MA,02144,USA,
 Last Laugh,09/14/19,14,September,2019,11:30 PM,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA,https://improvboston.secure.force.com/ticket/#sections_a0F6A000002y57CUAQ
 Beacon Hill Pub Show,09/15/19,15,September,2019,08:00 PM,Beacon Hill Pub,149 Charles St,Boston,MA,02114,USA,https://www.eventbrite.com/e/beacon-hill-pub-free-sunday-comedy-show-tickets-62951133535
 People's Show,09/15/19,15,September,2019,09:00 PM,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA,https://improvboston.secure.force.com/ticket/#sections_a0F6A000002y5B4UAI
 8 O'clock at 7:30,09/18/19,18,September,2019,08:00 PM,730 Tavern Kitchen & Patio,730 Massachusetts Ave,Cambridge,MA,02139,USA,https://www.facebook.com/8oclockat730/
+<<<<<<< HEAD
 Motor City: Ron Taylor,09/19/19,19,September,2019,10:00 PM,The Sanctuary,2932 Caniff St,Detroit,MI,48214,USA,"<br><br>#comedy<br>show starts at 10PM local<br><br><br><a href=""https://www.facebook.com/events/2337519929795928"">https://www.facebook.com/events/2337519929795928</a>"
 Motor City: Sabrina Jalees,09/20/19,20,September,2019,08:00 PM,Ant Hall,2320 Caniff St,Hamtramck,MI,48212,USA,"show starts at 8PM local<br>#comedy<br><br><a href=""https://www.facebook.com/events/464884174152311"">https://www.facebook.com/events/464884174152311</a>"
+=======
+Motor City: Ron Taylor,09/19/19,19,September,2019,10:00 PM,The Sanctuary,2932 Caniff St,Detroit,MI,48214,USA,https://motorcitycomedyfest.com/motor-city-comedy-festival/purchase-passes/
+Motor City: Sabrina Jalees,09/20/19,20,September,2019,08:00 PM,Ant Hall,2320 Caniff St,Hamtramck,MI,48212,USA,https://motorcitycomedyfest.com/motor-city-comedy-festival/purchase-passes/
+>>>>>>> f678f046b0f1991d6963913c5108f8f8b3c04aa4
 Artisanal Comedy,09/25/19,25,September,2019,08:00 PM,Dorchester Brewing Company,1250 Massachusetts Ave,Boston,MA,02125,USA,https://www.facebook.com/artisanalcomedy/
 Comedy Studio,09/28/19,28,September,2019,07:00 PM,The Comedy Studio,1 Bow Market Way #23,Somerville,MA,02143,USA,https://www.eventbrite.com/e/early-show-700pm-rick-jenkins-hosts-saturday-night-at-the-comedy-studio-tickets-67578381759?aff=ebdssbdestsearch
 Clean Comedy,09/28/19,28,September,2019,07:00 PM,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA,https://improvboston.secure.force.com/ticket#sections_a0F6A000005La3mUAC
@@ -14,8 +23,12 @@ Comedy Studio,09/28/19,28,September,2019,09:00 PM,The Comedy Studio,1 Bow Market
 Agape Brewery Show,10/04/19,4,October,2019,08:00 PM,Pier 23 Kitchen,23 E Main St,Gloucester,MA,01930,USA,
 McGreevy's,10/07/19,7,October,2019,08:00 PM,McGreevy's Boston,911 Boylston St,Boston,MA,02115,USA,https://www.eventbrite.com/e/mcgreevys-free-comedy-show-every-monday-tuesday-tickets-62951664122
 Rogue Island Comedy Festival Show,10/13/19,13,October,2019,08:00 PM,Gurney's Newport Resort & Marina,1 Goat Island,Newport,RI,02840,USA,https://tickets.vendini.com/ticket-software.html?e=9e1df7826311edab55038ae430bec410&t=tix&vqitq=efa2e36e-630f-4af0-adfc-3a3c81a27773&vqitp=1a898d69-9c99-4c61-b924-8595b39b2973&vqitts=1565885237&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=382c8dfb4f85a66af791a6bda7b7a28f
+<<<<<<< HEAD
 Charity Show,10/19/19,19,October,2019,08:00 PM,Harpoon Brewery & Beer Hall,306 Northern Ave,Boston,MA,02210,USA,
 Slumbrew,10/20/19,20,October,2019,08:00 PM,Somerville Brewing Company - Slumbrew,15 Ward St,Somerville,MA,02143,USA,
+=======
+Slumbrew,10/20/19,20,October,2019,08:00 PM,Somerville Brewing Company - Slumbrew,15 Ward St,Somerville,MA,02143,USA,https://www.slumbrew.com/liquid-courage-comedy-club
+>>>>>>> f678f046b0f1991d6963913c5108f8f8b3c04aa4
 Hideout,10/25/19,25,October,2019,07:00 PM,The White Bull Tavern,1 Union St,Boston,MA,02108,USA,https://www.eventbrite.com/e/hideout-comedy-at-the-white-bull-tavern-friday-tickets-64498988210
 Lawyer Bros at IB,10/31/19,31,October,2019,09:30 PM,ImprovBoston,40 Prospect St,Cambridge,MA,02139,USA,https://improvboston.secure.force.com/ticket
 League of Laughs,11/09/19,9,November,2019,08:30 PM,Comicazi,407 Highland Ave,Somerville,MA,02144,USA,https://www.eventbrite.com/e/league-of-laughs-nerd-comedy-show-tickets-64879375960
