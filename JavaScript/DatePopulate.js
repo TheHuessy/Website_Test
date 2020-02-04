@@ -17,8 +17,7 @@ if (len == 1){
 } else {
 
 // parse lines
-rows.forEach(function getvalues(ourrow) { 			
-
+rows.forEach(function getvalues(ourrow) {
 
 
 // split line into columns
@@ -67,10 +66,10 @@ else {
 	
 	//Get show name and time if available, else just print the show name
 	if (columns[2] != "??"){
-		var show_name = columns[0] + ' | ' + columns[5]
+		var show_name = columns[0] + ' | ' + columns[5];
 
 	} else{
-		var show_name = columns[0] + ' | TBA' 
+		var show_name = columns[0] + ' | TBA';
 	}
 
 	//Prefetch the ticket link after verifying there is one	
