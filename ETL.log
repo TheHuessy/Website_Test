@@ -2,17 +2,27 @@
 ---------------------
 PULLING...
 On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	deleted:    .temp.sh.swp
+	modified:   Data/dates.csv
+	deleted:    DatesPull.py
 	modified:   ETL.log
-	modified:   temp.sh
+	deleted:    Python/.Rhistory
+	deleted:    Python/.ipynb_checkpoints/Calendar API-checkpoint.ipynb
+	deleted:    Python/Calendar API.ipynb
+	deleted:    Python/CronGit.txt
+	deleted:    Python/GitCron.sh
+	deleted:    temp.sh
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Already up to date.
+From github.com:TheHuessy/Website_Test
+   3810edf..3dfbf4d  master     -> origin/master
+Updating 3810edf..3dfbf4d
+Fast-forward
+ README.md | 21 ++++-----------------
+ 1 file changed, 4 insertions(+), 17 deletions(-)
 ADDING...
