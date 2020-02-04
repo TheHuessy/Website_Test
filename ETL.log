@@ -18,3 +18,10 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 Already up to date.
 ADDING...
+CONFIGGING...
+COMMITTING...
+[master 39a6593] auto_commit_02032020
+ 2 files changed, 5 insertions(+)
+ create mode 100644 JavaScript/.DatePopulate.js.swp
+PUSHING
+=====================
