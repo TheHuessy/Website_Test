@@ -10,6 +10,11 @@ Changes not staged for commit:
 
 	modified:   ETL.log
 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	JavaScript/.DatePopulate.js.swp
+
 no changes added to commit (use "git add" and/or "git commit -a")
 Already up to date.
 ADDING...
