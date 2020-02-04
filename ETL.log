@@ -1,14 +1,61 @@
-BUILDING CREDENTIAL OBJECT
-CREATING API SERVICE INSTANCE
-CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
-Parsing into dataframe
-Done!
-Done
+
 ---------------------
 PULLING...
-From https://github.com/TheHuessy/Website_Test
-   341c093..0f807f0  master     -> origin/master
-Merge made by the 'recursive' strategy.
- DatesPull.sh | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .temp.sh.swp
+	modified:   Data/dates.csv
+	modified:   DatesPull.py
+	modified:   DatesPull.sh
+	modified:   ETL.log
+	modified:   JavaScript/DatePopulate.js
+	modified:   JavaScript/FooterGen.js
+	modified:   JavaScript/NextDate.js
+	modified:   JavaScript/TopButtonFuncs.js
+	modified:   Pictures/Cropped/Contact_Background.jpg
+	modified:   Pictures/Cropped/Dates_Background.jpg
+	modified:   Pictures/Cropped/Index_Background.jpg
+	modified:   Pictures/Cropped/Tapes_Background.jpg
+	modified:   Pictures/Mobile/Dates_Image_w320.jpg
+	modified:   Python/.Rhistory
+	modified:   Python/.ipynb_checkpoints/Calendar API-checkpoint.ipynb
+	modified:   Python/Calendar API.ipynb
+	modified:   Python/CronGit.txt
+	modified:   Python/GitCron.sh
+	modified:   README.md
+	modified:   Style.css
+	modified:   Working/Template.html
+	modified:   Working/dates_scratch.html
+	modified:   Working/scratch.html
+	modified:   Working/scratch.js
+	modified:   android-chrome-192x192.png
+	modified:   android-chrome-512x512.png
+	modified:   apple-touch-icon.png
+	modified:   browserconfig.xml
+	modified:   contact.html
+	new file:   cron.log
+	modified:   dates.html
+	modified:   favicon-16x16.png
+	modified:   favicon-32x32.png
+	modified:   favicon.ico
+	modified:   index.html
+	modified:   mstile-150x150.png
+	modified:   safari-pinned-tab.svg
+	modified:   scratch.js
+	modified:   site.webmanifest
+	modified:   tapes.html
+	modified:   temp.sh
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .temp.sh.swp
+	modified:   ETL.log
+
+Already up to date.
 ADDING...
