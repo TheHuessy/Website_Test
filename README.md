@@ -35,18 +35,7 @@ You could do all of that on the Pi server you have!
           * Decide on appropriate text sizes given a display type
           * Might be other element tinkering needed while testing on devices
      * It might just be worth it to rely on landscape for desktops and portorait for most mobile devices
-          * that is, try to create backgrounds for landscape and portrait orientations and see if that works
-
- * Get ETL of dates data up and running
-     ~~* Currently running into github authentication problems in cron~~
-          ~~* [This](https://stackoverflow.com/questions/7548661/git-github-cant-push-to-master) link might help, the answer has you setting an origin which might be needed~~
-               ~~* that being said, if you can push in a non-cron environment, this may not solve the problem in a cron environment
-                    ~~* HOWEVER, you might want to try to add the origin setting command to the bash file for the fun of it
-          ~~* might need to switch to ssh instead of https for this job
-               ~~* figure out what sort of private public key pair you need to generate on the Pi to make that happen
-          ~~* Be sure to create the ssh credentials for the root user on the pi
-               ~~* it looks like that is a common problem as root runs cron in certain situations
-     
+          * that is, try to create backgrounds for landscape and portrait orientations and see if that works    
 
 ### On hold for the time being:
  * Blog/Writing Page [?]
