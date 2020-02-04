@@ -1,5 +1,5 @@
 # Website_Test
-A repo for me to slowly teach myself JavaScript, HTML, and CSS to build a website for myself. The goal is to create something that will link to Google Calendar API, allowing me to share when I am booked on comedy shows
+A repo for me to slowly teach myself JavaScript, HTML, and CSS to build a website. The goal is to create something that will link to Google Calendar API, allowing me to share when I am booked on comedy shows
 
 ...And it works!
 
@@ -38,15 +38,14 @@ You could do all of that on the Pi server you have!
           * that is, try to create backgrounds for landscape and portrait orientations and see if that works
 
  * Get ETL of dates data up and running
-     * **FIGURE OUT WHY THE PI HAS DIED!!!!!!**
-     * Currently running into github authentication problems in cron
-          * [This](https://stackoverflow.com/questions/7548661/git-github-cant-push-to-master) link might help, the answer has you setting an origin which might be needed
-               * that being said, if you can push in a non-cron environment, this may not solve the problem in a cron environment
-                    * HOWEVER, you might want to try to add the origin setting command to the bash file for the fun of it
-          * might need to switch to ssh instead of https for this job
-               * figure out what sort of private public key pair you need to generate on the Pi to make that happen
-          * Be sure to create the ssh credentials for the root user on the pi
-               * it looks like that is a common problem as root runs cron in certain situations
+     ~~* Currently running into github authentication problems in cron~~
+          ~~* [This](https://stackoverflow.com/questions/7548661/git-github-cant-push-to-master) link might help, the answer has you setting an origin which might be needed~~
+               ~~* that being said, if you can push in a non-cron environment, this may not solve the problem in a cron environment
+                    ~~* HOWEVER, you might want to try to add the origin setting command to the bash file for the fun of it
+          ~~* might need to switch to ssh instead of https for this job
+               ~~* figure out what sort of private public key pair you need to generate on the Pi to make that happen
+          ~~* Be sure to create the ssh credentials for the root user on the pi
+               ~~* it looks like that is a common problem as root runs cron in certain situations
      
 
 ### On hold for the time being:
@@ -57,9 +56,8 @@ You could do all of that on the Pi server you have!
      * Develop some sort of python tool that you can feed copy into and it will populate the page at the right point
           * -OR- Just have a `.txt` file on the github page with a specific delineator that will allow a JS script to easily parse it to a div much like you did with the dates page.
  
- * Get some more, better, photos done
-     * Ugh, paying people to click buttons is silly
-     * Having good, recent photos is not silly
+     
+     
 
 
 
