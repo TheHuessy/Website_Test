@@ -1,4 +1,4 @@
-03032020
+03042020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
@@ -16,7 +16,11 @@ Done!
 ['#comedy']
 ['#comedy']
 ['#comedy']
-Done
+['#comedy']
+Traceback (most recent call last):
+  File "/home/pi/Documents/website/Python/DatesPull.py", line 127, in <module>
+    loc_zip = e_loc[3].split(" ")[1]                
+IndexError: list index out of range
 ---------------------
 PULLING...
 On branch master
