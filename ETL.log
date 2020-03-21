@@ -1,4 +1,4 @@
-03202020
+03212020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
@@ -26,5 +26,6 @@ Changes not staged for commit:
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
 Already up to date.
 ADDING...
