@@ -1,4 +1,4 @@
-04022020
+04032020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
@@ -8,11 +8,7 @@ Done!
 ['#comedy', 'https://www.eventbrite.com/o/the-comedy-studio-1100156563  ']
 ['#comedy', 'https://www.eventbrite.com/o/the-comedy-studio-1100156563  ']
 ['#comedy']
-['#comedy']
-Traceback (most recent call last):
-  File "/home/pi/Documents/website/Python/DatesPull.py", line 127, in <module>
-    loc_zip = e_loc[3].split(" ")[1]                
-IndexError: list index out of range
+Done
 ---------------------
 PULLING...
 On branch master
@@ -22,6 +18,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	modified:   Data/dates.csv
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
