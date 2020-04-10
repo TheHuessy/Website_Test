@@ -1,10 +1,9 @@
-04092020
+04102020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
 Parsing into dataframe
 Done!
-['#comedy', 'https://www.eventbrite.com/o/the-comedy-studio-1100156563  ']
 ['#comedy', 'https://www.eventbrite.com/o/the-comedy-studio-1100156563  ']
 ['#comedy', 'https://www.eventbrite.com/o/the-comedy-studio-1100156563  ']
 ['#comedy']
@@ -18,8 +17,10 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	modified:   Data/dates.csv
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+Warning: Permanently added the RSA host key for IP address '140.82.112.4' to the list of known hosts.
 Already up to date.
 ADDING...
