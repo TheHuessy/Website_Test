@@ -1,15 +1,10 @@
-05052020
+05062020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
 Parsing into dataframe
 Done!
-Traceback (most recent call last):
-  File "/home/pi/Documents/website/Python/DatesPull.py", line 77, in <module>
-    tst = events.description[i]
-  File "/usr/lib/python3/dist-packages/pandas/core/generic.py", line 4378, in __getattr__
-    return object.__getattribute__(self, name)
-AttributeError: 'DataFrame' object has no attribute 'description'
+Done
 ---------------------
 PULLING...
 On branch master
@@ -19,6 +14,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	modified:   Data/dates.csv
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
