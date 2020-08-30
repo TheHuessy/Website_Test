@@ -1,15 +1,33 @@
-08292020
+08302020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
-CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
-Parsing into dataframe
-Done!
 Traceback (most recent call last):
-  File "/home/pi/Documents/website/Python/DatesPull.py", line 77, in <module>
-    tst = events.description[i]
-  File "/usr/lib/python3/dist-packages/pandas/core/generic.py", line 4378, in __getattr__
-    return object.__getattribute__(self, name)
-AttributeError: 'DataFrame' object has no attribute 'description'
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1557, in _conn_request
+    conn.connect()
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1305, in connect
+    address_info = socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM)
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Documents/website/Python/DatesPull.py", line 54, in <module>
+    service = build('calendar', 'v3', credentials=credentials)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/discovery.py", line 223, in build
+    requested_url, discovery_http, cache_discovery, cache, developerKey)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/discovery.py", line 273, in _retrieve_discovery_doc
+    resp, content = http.request(actual_url)
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1991, in request
+    cachekey,
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1651, in _request
+    conn, request_uri, method, body, headers
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1564, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+httplib2.ServerNotFoundError: Unable to find the server at www.googleapis.com
 ---------------------
 PULLING...
 On branch master
@@ -22,5 +40,9 @@ Changes not staged for commit:
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Already up to date.
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 ADDING...
