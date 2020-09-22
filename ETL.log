@@ -1,12 +1,26 @@
-09212020
+09222020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
-CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
-Parsing into dataframe
-Done!
-['#comedy']
-Comedy Studio
-Done
+Traceback (most recent call last):
+  File "/home/pi/Documents/website/Python/DatesPull.py", line 54, in <module>
+    service = build('calendar', 'v3', credentials=credentials)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/discovery.py", line 223, in build
+    requested_url, discovery_http, cache_discovery, cache, developerKey)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/discovery.py", line 273, in _retrieve_discovery_doc
+    resp, content = http.request(actual_url)
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1991, in request
+    cachekey,
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1651, in _request
+    conn, request_uri, method, body, headers
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1557, in _conn_request
+    conn.connect()
+  File "/usr/local/lib/python3.7/dist-packages/httplib2/__init__.py", line 1305, in connect
+    address_info = socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM)
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+OSError: [Errno 16] Device or resource busy
 ---------------------
 PULLING...
 On branch master
@@ -19,5 +33,9 @@ Changes not staged for commit:
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Already up to date.
+/usr/bin/ssh: error while loading shared libraries: libresolv.so.2: cannot open shared object file: No such file or directory
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 ADDING...
