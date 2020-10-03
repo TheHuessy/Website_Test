@@ -1,4 +1,4 @@
-10022020
+10032020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
@@ -13,8 +13,7 @@ AttributeError: 'DataFrame' object has no attribute 'description'
 ---------------------
 PULLING...
 On branch master
-Your branch is ahead of 'origin/master' by 7 commits.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -23,5 +22,9 @@ Changes not staged for commit:
 	modified:   ETL.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Already up to date.
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 ADDING...
