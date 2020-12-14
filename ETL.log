@@ -1,10 +1,15 @@
-12132020
+12142020
 BUILDING CREDENTIAL OBJECT
 CREATING API SERVICE INSTANCE
 CALLING ALL EVENTS FOR THE CALENDAR FOR JAMESHUESSY@GMAIL.COM
-Parsing into dataframe
-Done!
-Done
+Traceback (most recent call last):
+  File "/home/pi/Documents/website/Python/DatesPull.py", line 64, in <module>
+    dd = d.execute()
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/googleapiclient/http.py", line 856, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://www.googleapis.com/calendar/v3/calendars/jameshuessy%40gmail.com/events?timeMin=2020-12-14T12%3A00%3A04.525315Z&alt=json returned "Invalid credentials.">
 ---------------------
 PULLING...
 On branch master
